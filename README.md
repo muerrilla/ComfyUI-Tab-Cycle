@@ -6,7 +6,7 @@ Cycle through the number input fields on a node using Tab / Shift+Tab, as you wo
 
 ## How to use
 
-Click a number/slider input widget on a node, edit the value, hit Tab to apply and go to the the next input.
+Click a number/slider input widget on a node, edit the value, hit Tab to apply (no Enter or clicking OK required) and go to the the next input on the node.
 
 Shift+Tab goes backwards. If no number input field is active pressing Tab has the default behavior.
 
