@@ -1,6 +1,6 @@
 # ComfyUI Tab Cycle
 
-Cycle through the number input fields on a node using Tab / Shift+Tab, as you would in your favorite software! 
+Cycle through the number input fields on a node using Tab / Shift+Tab, as you would in your favorite software! No more click, type, hit Enter to apply, click the next one, repeat! 
 
 ComfyUI doesn't do this out of the box, so here we are.
 
@@ -10,12 +10,9 @@ Click a number/slider input widget on a node, edit the value, hit Tab to apply a
 
 Shift+Tab goes backwards. If no number input field is active pressing Tab has the default behavior.
 
-No more click, type, hit Enter to apply, click the next one, repeat! 
-
-
 ## What it doesn't do
 
-- **Text/Boolean/Dropdown/etc. widgets are out of scope** by design. The purpose is quick editing of numbers.
+- **Text/Boolean/Dropdown/etc. widgets are out of scope**. By design. The purpose is quick editing of numbers.
 - **No cross-node tabbing.** Tab only cycles within whichever node you clicked into. Wraps around at the end.
 
 ## Install
