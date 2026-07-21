@@ -4,9 +4,6 @@ Cycle through the number input fields on a node using Tab / Shift+Tab, as you wo
 
 <img width="460" height="513" alt="Tab-Cycle" src="https://github.com/user-attachments/assets/5234eab0-3be4-42b6-8ba9-ba5b01f67c05" />
 
-
-ComfyUI doesn't do this out of the box, so here we are.
-
 ## How to use
 
 Click a number/slider input widget on a node, edit the value, hit Tab to apply and go to the the next input.
