@@ -14,6 +14,7 @@ Shift+Tab goes backwards. If no number input field is active pressing Tab has th
 
 - **Text/Boolean/Dropdown/etc. widgets are out of scope**. By design. The purpose is quick editing of numbers.
 - **No cross-node tabbing.** Tab only cycles within whichever node you clicked into. Wraps around at the end.
+- **This was NOT built for or Node 2.0.
 
 ## Install
 
