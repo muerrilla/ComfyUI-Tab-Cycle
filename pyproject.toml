@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-tab-cycle"
+description = "Use Tab / Shift+Tab to cycle through the number input widgets of a node, mirroring standard form-field navigation."
+version = "0.1.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/muerrilla/ComfyUI-Tab-Cycle"
+
+[tool.comfy]
+PublisherId = "muerrilla"
+DisplayName = "Tab Cycle"
+Icon = ""
