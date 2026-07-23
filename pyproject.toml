@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-tab-cycle"
 description = "Use Tab / Shift+Tab to cycle through the number input widgets of a node, mirroring standard form-field navigation."
-version = "0.1.0"
+version = "0.1.1"
 license = { file = "LICENSE" }
 dependencies = []
 
