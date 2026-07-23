@@ -10,7 +10,7 @@ import { app } from "../../scripts/app.js";
  */
 
 const DEBUG = false; // flip to true if you need to debug again
-const log = (...args) => DEBUG && console.log("[tab-cycler]", ...args);
+const log = (...args) => DEBUG && console.log("[tab-cycle]", ...args);
 
 const ALLOWED_TYPES = new Set(["number", "slider"]);
 
@@ -99,8 +99,8 @@ function findNodeAndWidgetAtPoint(clientX, clientY) {
 }
 
 function hookNodeMouseDown(node) {
-    if (node.__tabCyclerHooked) return;
-    node.__tabCyclerHooked = true;
+    if (node.__tabCycleHooked) return;
+    node.__tabCycleHooked = true;
     const original = node.onMouseDown;
     node.onMouseDown = function (e, pos, canvas) {
         currentNode = node;
@@ -172,7 +172,7 @@ function activateWidget(node, widget) {
 }
 
 app.registerExtension({
-    name: "tab.widget.cycler",
+    name: "tab.widget.cycle",
     async nodeCreated(node) {
         hookNodeMouseDown(node);
     },
